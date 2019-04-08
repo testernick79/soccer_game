@@ -69,7 +69,7 @@ def teams_file(the_teams):
     # loop through teams
     for the_teams, soccer_players in the_teams.items():
         # write a team name for each team
-        file.write(team +"\n")
+        file.write(the_teams +"\n")
         # loop through players and create info for player
         for soccer_players in soccer_players:
             # set var to clean up readability
